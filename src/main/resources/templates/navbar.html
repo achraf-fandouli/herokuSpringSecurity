@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" xmlns:th="http://www.w3.org/1999/xhtml">
+        <!-- <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="mr-auto">Article Management</div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        
+        <ul class="navbar-nav mx-auto">
+        
+        <li class="nav-item active">
+        <a href="#" th:href="@{/}"  class="btn btn-outline-info">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a href="#" th:href="@{/article/list}" class="btn btn-outline-info">Article management<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a href="#" th:href="@{/provider/list}" class="btn btn-outline-info">Provider management<span class="sr-only">(current)</span></a>
+        </li>
+<!-- 
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gestion medecin</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+        <a class="dropdown-item" th:href="@{/doctors/add}">Ajout medecin</a>
+        <a class="dropdown-item" th:href="@{/doctors/list}">Liste medecins</a>
+        <a class="dropdown-item" th:href="@{/doctors/recherche}">Rechercher medecins par specialite</a>
+        <a class="dropdown-item" th:href="@{/doctors/avancee}">Recherche avancee</a>
+                 </div>
+        </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gestion patients</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" th:href="@{/patients/add}">Ajout patient</a>
+                                <a class="dropdown-item" th:href="@{/patients/list}">Liste patients</a>
+                        </div>
+                </li>
+           <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gestion Rendez-vous</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" th:href="@{/rdvs/add}">Ajout Rendez-vous</a>
+                                <a class="dropdown-item" th:href="@{/rdvs/list}">Liste Rendez-vous</a>
+                                <a class="dropdown-item" th:href="@{/rdvs/recherche}">Rechercher Rendez-vous</a>
+                                <a class="dropdown-item" th:href="@{/rdvs/avancee}">Recherche avancee</a>
+                        </div>
+                </li>
+ -->
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        </div>
+        </nav>
